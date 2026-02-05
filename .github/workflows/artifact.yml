@@ -25,6 +25,6 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           name: hello-artifact
-          path: ./artifacts/hello.txt
+          path: ./artifacts/
       - name: echo artifact
         run: cat ./artifacts/hello.txt
